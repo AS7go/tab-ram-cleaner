@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Выгрузка неактивных вкладок",
+  "version": "1.0",
+  "description": "Выгружает неактивные вкладки из памяти без их закрытия",
+  "permissions": [
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
